@@ -1,5 +1,7 @@
 # Desafio Prático — Estágio AI & Data Lab | Bari
 
+Candidato: Matheus Miguel Barbosa
+
 Entrega completa do desafio: diagnóstico do funil de crédito (Parte 1),
 automação do relatório semanal (Parte 2), e extração estruturada de
 laudos de avaliação com IA (Parte 3). O enunciado original está em

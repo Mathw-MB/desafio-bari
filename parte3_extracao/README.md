@@ -173,7 +173,3 @@ um limite de velocidade, é uma cota que só reseta no dia seguinte.
   ```
 - Isso não impede avaliar o trabalho: `resultados/` já tem a extração
   completa e bem-sucedida commitada.
-
-## Tempo levado nesta parte
-
-*(preencher antes da entrega final — ver README.md geral do repositório)*

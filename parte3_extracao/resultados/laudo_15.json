@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "casa",
+    "status": "ok",
+    "observacao": "Imóvel residencial descrito como casa."
+  },
+  "endereco": {
+    "valor": "Rua Monte Verde, 19, Curitiba-PR",
+    "status": "ok",
+    "observacao": "Endereço completo extraído do texto."
+  },
+  "area_principal": {
+    "valor_m2": 135.0,
+    "rotulo_original": "área construída",
+    "status": "ok",
+    "observacao": "Área construída/edificada principal do imóvel."
+  },
+  "area_secundaria": {
+    "valor_m2": 200.0,
+    "rotulo_original": "área do terreno",
+    "status": "ok",
+    "observacao": "Área do terreno correspondente à área secundária."
+  },
+  "ano_construcao": {
+    "valor": 2003,
+    "status": "ok",
+    "observacao": "Ano de construção explicitamente mencionado no texto."
+  },
+  "valor_avaliacao": {
+    "valor": 590000.0,
+    "status": "ok",
+    "observacao": "Valor de avaliação em reais."
+  },
+  "matricula": {
+    "valor": "39.240",
+    "status": "ok",
+    "observacao": "Número da matrícula informado."
+  },
+  "onus": {
+    "valor": "hipoteca ativa",
+    "status": "ok",
+    "observacao": "A certidão consultada informa hipoteca ativa."
+  },
+  "data_vistoria": {
+    "valor": "2025-06-12",
+    "status": "ok",
+    "observacao": "Data da inspeção convertida para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Patrícia Gomes, Eng. Civil, CREA-PR 123123",
+    "status": "ok",
+    "observacao": "Nome e registro profissional informados."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "casa",
+    "status": "ok",
+    "observacao": "O tipo de propriedade foi descrito como casa de alto padrão."
+  },
+  "endereco": {
+    "valor": "Rua das Bromélias, 500, Lago Sul, Brasília - DF",
+    "status": "ok",
+    "observacao": "Endereço completo extraído do laudo."
+  },
+  "area_principal": {
+    "valor_m2": 285.0,
+    "rotulo_original": "área construída",
+    "status": "ok",
+    "observacao": "Área correspondente à edificação principal (construída)."
+  },
+  "area_secundaria": {
+    "valor_m2": 600.0,
+    "rotulo_original": "terreno",
+    "status": "ok",
+    "observacao": "Área correspondente ao terreno."
+  },
+  "ano_construcao": {
+    "valor": 2012,
+    "status": "ok",
+    "observacao": "Ano informado diretamente no documento."
+  },
+  "valor_avaliacao": {
+    "valor": 2180000.0,
+    "status": "ok",
+    "observacao": "Valor de avaliação extraído do texto."
+  },
+  "matricula": {
+    "valor": "54.122",
+    "status": "ok",
+    "observacao": "Número de matrícula obtido no documento."
+  },
+  "onus": {
+    "valor": "servidão de passagem registrada",
+    "status": "ok",
+    "observacao": "O documento confirma a existência de ônus."
+  },
+  "data_vistoria": {
+    "valor": "2025-05-23",
+    "status": "ok",
+    "observacao": "Data da visita técnica convertida para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Arq. Andréa Melo, CAU A445566-1",
+    "status": "ok",
+    "observacao": "Nome e registro profissional extraídos do texto."
+  }
+}

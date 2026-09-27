@@ -1,0 +1,151 @@
+id_proposta,data_entrada,canal_origem,cidade,uf,tipo_imovel,valor_imovel,valor_solicitado,prazo_meses,score_credito,idade_cliente,renda_mensal_declarada,flag_cliente_recorrente,consultor_id,etapa_max_funil,status_final,tempo_analise_dias,data_assinatura_contrato,taxa_juros_aa
+PR-000001,2024-01-01,Parceria,São Paulo,PR,Apartamento,239112.43,176138.53,240,648,43,23765.04,0,C003,6,Contratada,39,2024-02-09,1.0
+PR-000002,2024-01-05,Parceria,Belo Horizonte,SP,Comercial,378610.81,79507.16,120,595,52,28297.23,1,C014,3,Desistência cliente,66,,1.26
+PR-000003,2024-01-10,Indicação,Belo Horizonte,SP,Comercial,503607.95,364476.42,120,416,27,4837.71,1,C001,6,Contratada,41,2024-02-20,1.42
+PR-000004,2024-01-15,Mídia paga,São Paulo,MG,Comercial,150337.14,62446.23,120,966,63,9865.34,1,C016,6,Reprovada garantia,64,,1.41
+PR-000005,2024-01-19,Correspondente,Belo Horizonte,PE,Sobrado,840714.89,555624.96,240,554,56,14806.01,1,C001,6,Contratada,66,2024-03-25,1.08
+PR-000006,2024-01-24,Mídia paga,São Paulo,SP,Sobrado,224323.94,112070.47,120,328,37,14831.61,1,C020,3,Reprovada crédito,15,,1.4
+PR-000007,2024-01-29,Parceria,Curitiba,PR,Terreno,661852.95,337913.82,120,610,52,38461.06,1,C004,5,Reprovada crédito,40,,1.22
+PR-000008,2024-02-02,Parceria,Belo Horizonte,SP,Comercial,621649.11,247203.64,240,976,37,10539.51,0,C009,6,Reprovada crédito,67,,1.21
+PR-000009,2024-02-07,Indicação,Curitiba,MG,Comercial,756797.89,496202.05,180,768,55,5313.25,1,C014,5,Desistência cliente,53,,1.6
+PR-000010,2024-02-12,Parceria,Recife,PE,Apartamento,638540.80,220429.05,180,745,29,16061.55,1,C017,6,Desistência cliente,20,,1.27
+PR-000011,2024-02-16,Mídia paga,Recife,PE,Comercial,727040.56,342241.81,240,930,53,7974.35,1,C008,2,Desistência cliente,75,,1.36
+PR-000012,2024-02-21,Correspondente,Recife,PR,Casa,465936.46,236740.44,240,358,23,7683.53,1,C020,6,Contratada,18,2024-03-10,1.38
+PR-000013,2024-02-26,Mídia paga,São Paulo,PR,Sobrado,516528.37,314248.94,240,685,21,18075.67,0,C001,2,Reprovada crédito,89,,1.38
+PR-000014,2024-03-02,Organico,São Paulo,PR,Terreno,676246.58,310667.3,180,524,34,14336.47,1,C010,5,Contratada,63,2024-05-04,1.11
+PR-000015,2024-03-06,Parceria,São Paulo,PE,Sobrado,576320.04,330897.38,180,773,30,6393.89,1,C020,6,Contratada,29,2024-04-04,1.41
+PR-000016,2024-03-11,Indicação,Belo Horizonte,PR,Sobrado,533653.91,249169.28,120,896,47,25359.23,1,C006,4,Reprovada crédito,18,,1.2
+PR-000017,2024-03-16,Mídia paga,Curitiba,SP,Comercial,304168.80,171133.38,180,354,29,21562.89,0,C011,4,Reprovada crédito,81,,1.46
+PR-000018,2024-03-20,Organico,Belo Horizonte,PE,Comercial,343581.20,196108.9,240,410,34,5852.69,1,C009,5,Reprovada crédito,47,,1.06
+PR-000019,2024-03-25,Correspondente,Curitiba,SP,Terreno,418872.93,247215.81,120,968,26,34921.55,0,C008,2,Reprovada crédito,72,,1.73
+PR-000020,2024-03-30,Correspondente,São Paulo,PE,Comercial,156963.29,102467.97,240,644,68,13534.38,0,C016,3,Desistência cliente,75,,1.55
+PR-000021,2024-04-03,Organico,Belo Horizonte,SP,Casa,463022.59,230306.24,120,520,60,38571.09,1,C011,5,Desistência cliente,7,,1.27
+PR-000022,2024-04-08,Organico,Belo Horizonte,MG,Terreno,152076.36,46581.44,120,406,32,37466.93,0,C015,1,Reprovada garantia,61,,1.18
+PR-000023,2024-04-13,Organico,Belo Horizonte,PR,Comercial,573761.58,329225.81,180,548,27,19061.58,1,C011,6,Contratada,30,2024-05-13,1.25
+PR-000024,2024-04-18,Parceria,Curitiba,MG,Sobrado,678021.58,164362.56,120,303,66,11456.98,1,C020,6,Contratada,81,2024-07-08,1.51
+PR-000025,2024-04-22,Indicação,Belo Horizonte,PR,Casa,571611.47,183158.76,240,455,57,33889.55,0,C010,5,Contratada,20,2024-05-12,1.46
+PR-000026,2024-04-27,Mídia paga,Recife,PR,Comercial,670139.98,425999.03,180,428,68,16367.58,0,C016,4,Desistência cliente,3,,1.49
+PR-000027,2024-05-02,Correspondente,Belo Horizonte,PR,Comercial,150009.88,65897.63,180,359,30,9051.38,0,C013,6,Desistência cliente,60,,1.64
+PR-000028,2024-05-06,Parceria,Recife,PE,Sobrado,194581.48,92216.89,180,978,40,23409.49,1,C017,5,Reprovada crédito,50,,1.3
+PR-000029,2024-05-11,Indicação,Curitiba,SP,Comercial,673846.83,500714.22,120,853,27,21107.89,1,C018,4,Desistência cliente,50,,1.47
+PR-000030,2024-05-16,Mídia paga,São Paulo,SP,Apartamento,752175.11,247725.01,240,958,43,34450.66,1,C005,5,Reprovada crédito,24,,1.29
+PR-000031,2024-05-20,Mídia paga,Recife,SP,Casa,688276.18,145056.97,240,468,29,29983.41,0,C007,3,Reprovada crédito,45,,1.44
+PR-000032,2024-05-25,Mídia paga,Curitiba,MG,Sobrado,647259.18,169099.66,120,501,21,35417.16,0,C007,4,Reprovada crédito,86,,1.32
+PR-000033,2024-05-30,Parceria,São Paulo,MG,Casa,680537.00,227623.31,120,497,48,30184.01,0,C010,6,Contratada,68,2024-08-06,1.55
+PR-000034,2024-06-04,Indicação,São Paulo,MG,Casa,704692.44,422291.18,120,690,73,26760.47,0,C010,1,Reprovada garantia,88,,0.94
+PR-000035,2024-06-08,Mídia paga,Curitiba,SP,Apartamento,693283.12,434482.0,120,427,55,21506.55,1,C001,3,Desistência cliente,30,,1.11
+PR-000036,2024-06-13,Indicação,São Paulo,PE,Terreno,703506.36,359505.06,180,464,61,39539.47,0,C018,1,Desistência cliente,78,,1.17
+PR-000037,2024-06-18,Parceria,Belo Horizonte,PE,Apartamento,205514.78,69931.65,240,982,64,38489.1,1,C018,4,Reprovada garantia,35,,1.69
+PR-000038,2024-06-22,Organico,Belo Horizonte,PE,Casa,197453.66,96151.65,180,546,73,34407.56,0,C013,5,Desistência cliente,84,,1.34
+PR-000039,2024-06-27,Parceria,Curitiba,PE,Terreno,420839.96,87630.1,120,846,27,31686.81,1,C007,6,Contratada,78,2024-09-13,1.23
+PR-000040,2024-07-02,Indicação,São Paulo,PR,Sobrado,545697.54,313770.91,120,460,34,24369.7,1,C017,4,Contratada,15,2024-07-17,1.26
+PR-000041,2024-07-06,Correspondente,São Paulo,MG,Casa,721964.29,388318.35,180,950,54,12610.87,1,C006,3,Reprovada crédito,87,,1.3
+PR-000042,2024-07-11,Parceria,Recife,PR,Casa,401030.86,85013.77,120,785,65,35391.24,0,C007,5,Reprovada garantia,55,,1.63
+PR-000043,2024-07-16,Indicação,Curitiba,MG,Apartamento,356337.81,231390.24,180,903,62,3400.2,0,C020,2,Reprovada garantia,70,,1.7
+PR-000044,2024-07-21,Organico,São Paulo,PR,Comercial,736086.23,456288.51,120,661,60,11415.28,0,C019,1,Desistência cliente,52,,1.61
+PR-000045,2024-07-25,Organico,Belo Horizonte,MG,Sobrado,337002.64,124530.25,120,934,37,17938.1,0,C012,1,Reprovada crédito,20,,1.6
+PR-000046,2024-07-30,Parceria,Recife,PE,Casa,765631.03,420681.45,180,553,40,24687.81,0,C004,3,Contratada,88,2024-10-26,1.1
+PR-000047,2024-08-04,Parceria,São Paulo,MG,Casa,282850.16,150142.84,120,635,25,23752.53,1,C003,3,Reprovada garantia,11,,1.15
+PR-000048,2024-08-08,Correspondente,Recife,PE,Casa,419605.14,116964.58,180,343,37,9505.19,1,C020,6,Contratada,72,2024-10-19,1.41
+PR-000049,2024-08-13,Indicação,Belo Horizonte,PE,Sobrado,450806.71,138078.77,120,419,29,6877.53,1,C006,6,Contratada,19,2024-09-01,1.46
+PR-000050,2024-08-18,Correspondente,Curitiba,SP,Comercial,374632.84,215699.87,120,839,71,11226.17,0,C014,2,Reprovada crédito,70,,1.1
+PR-000051,2024-08-22,Organico,Recife,PE,Terreno,152517.69,108814.27,180,528,25,15902.23,0,C008,5,Reprovada crédito,38,,1.53
+PR-000052,2024-08-27,Mídia paga,Curitiba,PE,Terreno,326631.94,168854.46,120,371,40,3519.99,0,C010,6,Contratada,22,2024-09-18,1.1
+PR-000053,2024-09-01,Organico,Belo Horizonte,PR,Terreno,403240.17,206578.82,240,504,68,28620.87,0,C020,3,Reprovada garantia,22,,1.15
+PR-000054,2024-09-05,Mídia paga,São Paulo,MG,Comercial,385218.67,214056.36,240,546,72,12165.92,1,C012,4,Desistência cliente,29,,1.18
+PR-000055,2024-09-10,Mídia paga,São Paulo,MG,Comercial,739166.62,326946.75,180,801,41,16001.96,0,C009,2,Reprovada crédito,81,,1.61
+PR-000056,2024-09-15,Mídia paga,Recife,PE,Comercial,185525.82,42632.84,120,363,46,15391.36,1,C009,4,Reprovada crédito,69,,1.52
+PR-000057,2024-09-20,Parceria,Recife,PE,Apartamento,441711.52,184669.48,180,317,49,21937.7,0,C005,6,Contratada,60,2024-11-19,1.36
+PR-000058,2024-09-24,Correspondente,São Paulo,SP,Comercial,178136.59,123829.64,180,806,65,34812.59,0,C012,6,Reprovada crédito,57,,1.59
+PR-000059,2024-09-29,Indicação,São Paulo,SP,Sobrado,847985.67,545017.98,180,399,62,8527.43,0,C012,2,Reprovada crédito,38,,1.58
+PR-000060,2024-10-04,Organico,Belo Horizonte,SP,Apartamento,742657.08,527348.14,240,593,49,15606.9,0,C002,6,Desistência cliente,81,,1.25
+PR-000061,2024-10-08,Correspondente,Recife,MG,Sobrado,886621.20,251851.29,240,778,41,28605.07,0,C009,4,Reprovada crédito,25,,1.56
+PR-000062,2024-10-13,Mídia paga,Belo Horizonte,PE,Comercial,832620.40,398222.99,180,659,41,4636.56,0,C013,5,Contratada,84,2025-01-05,1.1
+PR-000063,2024-10-18,Organico,Belo Horizonte,MG,Casa,386859.58,201786.14,120,386,56,33709.21,1,C002,6,Contratada,34,2024-11-21,1.34
+PR-000064,2024-10-22,Correspondente,Curitiba,SP,Apartamento,668687.56,210943.53,120,805,66,38587.53,1,C020,1,Desistência cliente,31,,1.03
+PR-000065,2024-10-27,Mídia paga,São Paulo,MG,Terreno,379915.57,117976.56,240,333,25,25482.58,0,C018,6,Contratada,43,2024-12-09,1.28
+PR-000066,2024-11-01,Parceria,Recife,PR,Apartamento,816158.39,514276.18,180,462,62,38390.81,0,C013,3,Reprovada crédito,67,,1.35
+PR-000067,2024-11-06,Mídia paga,Recife,PR,Comercial,458064.65,260876.32,120,376,46,18283.29,1,C001,2,Reprovada garantia,64,,1.0
+PR-000068,2024-11-10,Indicação,Curitiba,PE,Apartamento,431915.66,240124.87,180,658,28,18356.17,0,C011,6,Desistência cliente,69,,1.31
+PR-000069,2024-11-15,Correspondente,Belo Horizonte,PR,Sobrado,835551.56,289805.29,240,783,26,6931.21,1,C018,2,Desistência cliente,8,,1.45
+PR-000070,2024-11-20,Correspondente,São Paulo,MG,Apartamento,777555.22,372233.71,180,754,39,4311.54,0,C001,3,Contratada,15,2024-12-05,1.43
+PR-000071,2024-11-24,Organico,Curitiba,SP,Sobrado,874810.17,186062.04,120,397,34,12046.66,1,C016,5,Reprovada garantia,76,,0.98
+PR-000072,2024-11-29,Indicação,São Paulo,PR,Comercial,199866.06,54257.71,240,540,26,20690.76,1,C017,6,Reprovada garantia,88,,1.02
+PR-000073,2024-12-04,Parceria,Curitiba,MG,Apartamento,332504.16,161277.14,120,402,36,21784.25,1,C002,6,Reprovada crédito,12,,1.22
+PR-000074,2024-12-08,Correspondente,São Paulo,MG,Terreno,375643.31,139108.14,240,539,66,11050.29,1,C005,4,Reprovada crédito,81,,1.61
+PR-000075,2024-12-13,Mídia paga,Belo Horizonte,PE,Sobrado,468264.05,342356.45,180,461,59,25673.81,0,C015,1,Desistência cliente,24,,1.63
+PR-000076,2024-12-18,Organico,São Paulo,PR,Casa,504847.53,231884.85,120,818,32,9704.62,0,C019,6,Contratada,88,2025-03-16,1.18
+PR-000077,2024-12-23,Indicação,Belo Horizonte,PE,Sobrado,368604.32,90662.02,120,825,57,15069.81,0,C016,5,Desistência cliente,89,,1.51
+PR-000078,2024-12-27,Organico,Belo Horizonte,PE,Terreno,742837.82,155857.25,240,872,45,10241.25,1,C011,4,Reprovada garantia,57,,1.4
+PR-000079,2025-01-01,Mídia paga,Recife,PR,Terreno,317433.11,190108.1,240,440,61,28776.55,1,C013,1,Desistência cliente,17,,1.72
+PR-000080,2025-01-06,Parceria,São Paulo,SP,Casa,672387.98,197903.08,120,309,34,22113.18,0,C011,5,Reprovada crédito,71,,1.01
+PR-000081,2025-01-10,Mídia paga,Curitiba,PR,Apartamento,788826.24,239248.48,180,324,24,30235.74,0,C012,6,Reprovada crédito,10,,1.37
+PR-000082,2025-01-15,Indicação,São Paulo,MG,Comercial,602773.68,261057.65,240,890,37,5118.18,1,C016,6,Contratada,30,2025-02-14,1.41
+PR-000083,2025-01-20,Indicação,Belo Horizonte,PE,Sobrado,415619.19,143485.59,240,934,74,18738.4,0,C001,5,Reprovada crédito,57,,1.18
+PR-000084,2025-01-24,Mídia paga,São Paulo,MG,Comercial,290918.43,156839.19,240,448,51,38777.47,1,C005,3,Reprovada crédito,7,,0.98
+PR-000085,2025-01-29,Organico,Belo Horizonte,MG,Terreno,250759.65,117137.58,120,913,23,4983.92,0,C002,3,Desistência cliente,35,,0.98
+PR-000086,2025-02-03,Parceria,Recife,SP,Terreno,708131.05,185033.11,180,670,73,18480.01,0,C016,5,Reprovada crédito,71,,1.3
+PR-000087,2025-02-08,Organico,Belo Horizonte,MG,Casa,501849.00,316971.58,240,429,65,4494.73,1,C015,2,Desistência cliente,9,,1.49
+PR-000088,2025-02-12,Parceria,São Paulo,PE,Apartamento,184739.66,80218.09,120,519,50,8426.17,1,C002,1,Contratada,33,2025-03-17,1.49
+PR-000089,2025-02-17,Parceria,Curitiba,PR,Sobrado,887879.63,475866.97,120,485,60,20113.48,0,C003,6,Reprovada crédito,1,,1.08
+PR-000090,2025-02-22,Mídia paga,Belo Horizonte,PE,Terreno,653477.39,132112.4,240,834,30,8828.0,0,C006,3,Reprovada crédito,59,,1.62
+PR-000091,2025-02-26,Parceria,Curitiba,SP,Comercial,783136.91,426433.72,240,431,52,22193.95,0,C005,2,Desistência cliente,8,,1.24
+PR-000092,2025-03-03,Digital Ads,Curitiba,PE,Comercial,478641.50,170189.32,120,428,70,37141.07,1,C011,6,Contratada,26,2025-03-29,1.7
+PR-000093,2025-03-08,Indicação,Recife,PE,Sobrado,866578.97,408942.0,240,803,44,10415.08,0,C010,2,Reprovada crédito,47,,1.03
+PR-000094,2025-03-12,Correspondente,Recife,MG,Terreno,299643.77,108994.32,180,511,23,6965.9,1,C008,5,Reprovada crédito,20,,1.6
+PR-000095,2025-03-17,Correspondente,Curitiba,MG,Terreno,288852.09,216045.02,180,475,61,33535.23,1,C004,1,Contratada,21,2025-04-07,1.66
+PR-000096,2025-03-22,Correspondente,Curitiba,PE,Terreno,817751.05,267374.56,180,865,60,20029.98,1,C013,6,Contratada,75,2025-06-05,1.59
+PR-000097,2025-03-27,Correspondente,São Paulo,PR,Casa,818787.80,574848.63,240,952,60,35656.61,0,C016,3,Reprovada garantia,70,,1.58
+PR-000098,2025-03-31,Digital Ads,Curitiba,SP,Terreno,524264.61,369544.5,180,688,56,14326.56,1,C013,6,Desistência cliente,8,,1.23
+PR-000099,2025-04-05,Correspondente,Belo Horizonte,PE,Sobrado,244339.77,105444.92,180,879,28,26218.68,1,C017,6,Contratada,77,2025-06-21,1.5
+PR-000100,2025-04-10,Correspondente,Belo Horizonte,SP,Casa,378912.34,139137.26,240,888,27,37162.6,0,C019,6,Desistência cliente,42,,1.4
+PR-000101,2025-04-14,Parceria,Curitiba,MG,Comercial,715614.25,293093.81,180,711,63,9352.74,1,C017,2,Reprovada crédito,13,,1.28
+PR-000102,2025-04-19,Organico,São Paulo,PR,Terreno,784493.93,583770.57,240,880,67,32626.96,1,C014,3,Contratada,81,2025-07-09,1.72
+PR-000103,2025-04-24,Parceria,São Paulo,PE,Comercial,410741.06,221938.97,120,306,25,26366.12,0,C001,5,Contratada,30,2025-05-24,1.17
+PR-000104,2025-04-28,Parceria,São Paulo,PE,Sobrado,195925.26,97889.97,240,324,52,33079.03,1,C007,1,Contratada,29,2025-05-27,1.27
+PR-000105,2025-05-03,Mídia paga,São Paulo,PR,Comercial,649295.01,142685.72,240,918,48,9315.65,0,C009,6,Contratada,14,2025-05-17,1.65
+PR-000106,2025-05-08,Digital Ads,São Paulo,MG,Casa,704622.78,469499.79,240,398,39,19061.2,0,C015,6,Contratada,79,2025-07-26,1.17
+PR-000107,2025-05-12,Parceria,Belo Horizonte,PR,Apartamento,468011.01,115174.23,180,809,55,7766.98,1,C017,5,Reprovada crédito,26,,1.06
+PR-000108,2025-05-17,Correspondente,Recife,PR,Sobrado,587323.21,132638.02,180,594,70,38523.04,0,C013,2,Desistência cliente,53,,1.18
+PR-000109,2025-05-22,Correspondente,Recife,PE,Terreno,890528.62,312728.67,120,851,65,5319.59,1,C008,5,Reprovada garantia,22,,1.54
+PR-000110,2025-05-27,Organico,Belo Horizonte,PR,Comercial,333748.95,154086.46,240,765,29,5422.89,0,C016,6,Reprovada crédito,80,,1.62
+PR-000111,2025-05-31,Mídia paga,Curitiba,PE,Comercial,579733.27,401412.49,240,350,46,36231.78,0,C014,2,Reprovada crédito,71,,1.03
+PR-000112,2025-06-05,Indicação,Recife,MG,Comercial,608220.31,385942.15,120,535,71,14128.2,1,C016,4,Desistência cliente,45,,1.43
+PR-000113,2025-06-10,Correspondente,São Paulo,PE,Sobrado,561830.40,173435.74,120,795,33,25089.74,0,C012,1,Contratada,31,2025-07-11,1.39
+PR-000114,2025-06-14,Correspondente,Belo Horizonte,MG,Terreno,801847.17,324462.44,240,945,67,13636.59,1,C013,3,Reprovada crédito,59,,1.47
+PR-000115,2025-06-19,Organico,Recife,PE,Sobrado,603755.65,379842.09,240,863,47,27004.06,0,C007,1,Reprovada crédito,45,,1.47
+PR-000116,2025-06-24,Organico,Belo Horizonte,PR,Sobrado,530917.52,260096.94,180,924,49,10121.37,0,C008,4,Desistência cliente,84,,1.7
+PR-000117,2025-06-28,Parceria,Curitiba,PR,Terreno,242261.27,71702.21,120,969,34,19978.17,0,C006,4,Desistência cliente,60,,1.21
+PR-000118,2025-07-03,Organico,Belo Horizonte,PR,Comercial,677406.90,283041.17,240,925,70,22739.21,0,C006,4,Desistência cliente,3,,1.18
+PR-000119,2025-07-08,Parceria,Recife,SP,Casa,249080.52,135565.73,180,706,49,15344.79,0,C014,5,Desistência cliente,74,,1.4
+PR-000120,2025-07-13,Correspondente,São Paulo,SP,Terreno,169927.42,124943.23,240,535,52,12312.92,0,C008,6,Reprovada crédito,18,,1.28
+PR-000121,2025-07-17,Correspondente,Belo Horizonte,PR,Terreno,516398.37,291246.94,240,655,45,8187.65,0,C003,2,Desistência cliente,27,,1.31
+PR-000122,2025-07-22,Parceria,São Paulo,PE,Comercial,579333.95,121027.11,180,856,25,29127.34,1,C001,2,Reprovada garantia,39,,0.99
+PR-000123,2025-07-27,Organico,São Paulo,PE,Apartamento,899290.55,528562.11,120,597,63,9226.46,0,C018,2,Reprovada crédito,19,,1.06
+PR-000124,2025-07-31,Correspondente,Recife,MG,Sobrado,684245.10,231258.18,240,881,38,13808.68,1,C009,6,Reprovada garantia,84,,1.68
+PR-000125,2025-08-05,Mídia paga,Curitiba,PR,Sobrado,786442.74,530209.79,240,790,33,15465.62,1,C012,6,Contratada,88,2025-11-01,0.99
+PR-000126,2025-08-10,Correspondente,São Paulo,MG,Casa,409791.03,168481.26,240,446,63,19811.57,1,C019,1,Reprovada crédito,14,,1.41
+PR-000127,2025-08-14,Correspondente,Curitiba,PE,Comercial,531686.01,164710.09,180,944,31,28995.04,1,C003,1,Contratada,29,2025-09-12,1.54
+PR-000128,2025-08-19,Digital Ads,São Paulo,SP,Apartamento,880701.74,402807.39,240,892,57,18833.97,1,C019,5,Reprovada crédito,33,,0.95
+PR-000129,2025-08-24,Mídia paga,Recife,PE,Sobrado,463041.41,157600.26,240,719,46,35230.46,1,C015,4,Desistência cliente,60,,1.12
+PR-000130,2025-08-29,Mídia paga,Recife,PE,Casa,755467.82,249079.11,120,435,64,28152.07,1,C013,6,Contratada,54,2025-10-22,1.24
+PR-000131,2025-09-02,Mídia paga,São Paulo,PE,Casa,544491.84,280573.37,120,459,23,34024.01,1,C009,2,Reprovada crédito,61,,1.34
+PR-000132,2025-09-07,Correspondente,São Paulo,SP,Comercial,317971.39,197791.07,120,887,62,29505.1,0,C015,3,Desistência cliente,3,,1.21
+PR-000133,2025-09-12,Organico,Recife,PE,Casa,585313.98,385853.55,240,312,33,8499.38,1,C005,4,Reprovada garantia,46,,1.45
+PR-000134,2025-09-16,Organico,Recife,MG,Terreno,313546.52,131287.71,120,638,68,39183.31,0,C007,6,Contratada,19,2025-10-05,1.12
+PR-000135,2025-09-21,Organico,Recife,MG,Sobrado,152270.24,36048.77,180,733,40,32103.69,0,C020,6,Desistência cliente,21,,0.96
+PR-000136,2025-09-26,Mídia paga,Belo Horizonte,SP,Sobrado,326922.01,152406.55,240,462,21,24190.71,1,C006,5,Reprovada crédito,69,,0.94
+PR-000137,2025-09-30,Organico,Recife,PR,Comercial,294857.87,129318.71,180,905,47,9113.54,1,C015,1,Contratada,13,2025-10-13,1.21
+PR-000138,2025-10-05,Indicação,Curitiba,PR,Apartamento,428190.88,132027.7,120,665,23,9389.18,1,C019,6,Contratada,3,2025-10-08,1.23
+PR-000139,2025-10-10,Parceria,Recife,PE,Sobrado,816447.68,565700.02,180,346,35,25730.25,0,C012,3,Contratada,44,2025-11-23,1.69
+PR-000140,2025-10-15,Indicação,Recife,PR,Casa,440889.81,324398.58,120,524,59,18399.29,1,C006,3,Reprovada crédito,66,,0.98
+PR-000141,2025-10-19,Organico,São Paulo,SP,Sobrado,783890.72,179088.42,180,578,51,28006.8,1,C017,6,Contratada,46,2025-12-04,1.36
+PR-000142,2025-10-24,Mídia paga,São Paulo,PE,Casa,566709.77,361368.44,240,455,59,16779.83,0,C017,6,Contratada,15,2025-11-08,1.4
+PR-000143,2025-10-29,Digital Ads,Belo Horizonte,SP,Comercial,155711.03,86442.06,180,958,68,21975.27,1,C011,2,Desistência cliente,69,,1.49
+PR-000144,2025-11-02,Indicação,Recife,PE,Comercial,291552.53,100232.83,240,552,46,9954.45,1,C003,5,Desistência cliente,34,,1.44
+PR-000145,2025-11-07,Organico,Recife,PE,Comercial,848458.53,466088.7,120,651,50,8742.44,1,C009,6,Contratada,64,2026-01-10,0.95
+PR-000146,2025-11-12,Digital Ads,São Paulo,PR,Apartamento,603130.08,163299.73,240,674,24,5798.86,0,C009,6,Contratada,18,2025-11-30,1.44
+PR-000147,2025-11-16,Indicação,Curitiba,MG,Comercial,847160.14,201771.16,180,454,36,33326.65,0,C004,5,Reprovada crédito,82,,1.19
+PR-000148,2025-11-21,Indicação,Recife,PE,Comercial,382590.02,285572.46,120,697,60,23549.29,0,C009,4,Contratada,26,2025-12-17,1.55
+PR-000149,2025-11-26,Correspondente,São Paulo,MG,Sobrado,687421.78,378084.33,180,547,24,38044.22,1,C004,2,Desistência cliente,87,,1.09
+PR-000150,2025-12-01,Indicação,Belo Horizonte,MG,Comercial,729018.87,247336.01,120,307,40,30730.99,1,C014,3,Reprovada crédito,34,,1.51

@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "apartamento",
+    "status": "ok",
+    "observacao": "Objeto: apartamento residencial."
+  },
+  "endereco": {
+    "valor": "Rua Harmonia, 44, Vila Madalena, São Paulo/SP",
+    "status": "ok",
+    "observacao": "Extraído diretamente do objeto."
+  },
+  "area_principal": {
+    "valor_m2": 70.0,
+    "rotulo_original": "área privativa",
+    "status": "ok",
+    "observacao": "Área privativa correspondente à edificação/construção."
+  },
+  "area_secundaria": {
+    "valor_m2": null,
+    "rotulo_original": null,
+    "status": "contraditorio",
+    "observacao": "No cabeçalho consta área total 95 m², porém a tabela interna registra 92 m²; divergência mantida conforme regra de dados conflitantes."
+  },
+  "ano_construcao": {
+    "valor": 2015,
+    "status": "ok",
+    "observacao": "Informado diretamente no texto."
+  },
+  "valor_avaliacao": {
+    "valor": 610000.0,
+    "status": "ok",
+    "observacao": "Valor de avaliação em reais."
+  },
+  "matricula": {
+    "valor": "176.543",
+    "status": "ok",
+    "observacao": "Número de matrícula informado no laudo."
+  },
+  "onus": {
+    "valor": "não há ônus, segundo declaração do proprietário; certidão não anexada",
+    "status": "ok",
+    "observacao": "Consta declaração de que não há ônus, embora a certidão não esteja anexada."
+  },
+  "data_vistoria": {
+    "valor": "2025-06-25",
+    "status": "ok",
+    "observacao": "Data da vistoria convertida para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Marina Albuquerque, CREA-SP 5061234567",
+    "status": "ok",
+    "observacao": "Nome e registro profissional informados."
+  }
+}

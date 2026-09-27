@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "sala comercial",
+    "status": "ok",
+    "observacao": "Imóvel descrito como Unidade comercial 14"
+  },
+  "endereco": {
+    "valor": "Rua do Sol, 250, Campinas/SP",
+    "status": "ok",
+    "observacao": "Endereço completo obtido no texto"
+  },
+  "area_principal": {
+    "valor_m2": 42.0,
+    "rotulo_original": "Área privativa",
+    "status": "ok",
+    "observacao": "Área construída/privativa da unidade comercial"
+  },
+  "area_secundaria": {
+    "valor_m2": 67.0,
+    "rotulo_original": "Área total",
+    "status": "ok",
+    "observacao": "Área total do imóvel"
+  },
+  "ano_construcao": {
+    "valor": 2010,
+    "status": "ok",
+    "observacao": "Construído em 2010"
+  },
+  "valor_avaliacao": {
+    "valor": 288000.0,
+    "status": "ok",
+    "observacao": "Valor de avaliação extraído do texto"
+  },
+  "matricula": {
+    "valor": "101.010",
+    "status": "ok",
+    "observacao": "Número de matrícula informado no laudo"
+  },
+  "onus": {
+    "valor": null,
+    "status": "ausente",
+    "observacao": "Documento informa sem informação"
+  },
+  "data_vistoria": {
+    "valor": "2025-06-19",
+    "status": "ok",
+    "observacao": "Data da vistoria convertida para formato ISO"
+  },
+  "responsavel_tecnico": {
+    "valor": "Guilherme Rocha, CREA-SP 501010",
+    "status": "ok",
+    "observacao": "Nome e registro profissional do responsável técnico"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "sala comercial",
+    "status": "ok",
+    "observacao": "O imóvel é descrito como sala comercial."
+  },
+  "endereco": {
+    "valor": "Rua do Comércio, 77, Curitiba/PR",
+    "status": "ok",
+    "observacao": "Endereço completo extraído do texto."
+  },
+  "area_principal": {
+    "valor_m2": 54.8,
+    "rotulo_original": "área útil",
+    "status": "ok",
+    "observacao": "Área útil construída da sala comercial."
+  },
+  "area_secundaria": {
+    "valor_m2": 18.2,
+    "rotulo_original": "área comum proporcional",
+    "status": "ok",
+    "observacao": "Área comum proporcional registrada no laudo."
+  },
+  "ano_construcao": {
+    "valor": 2014,
+    "status": "ok",
+    "observacao": "Calculado a partir da data da vistoria (2025) menos a idade aparente (11 anos). É uma estimativa."
+  },
+  "valor_avaliacao": {
+    "valor": 395500.0,
+    "status": "ok",
+    "observacao": "Valor indicado no laudo."
+  },
+  "matricula": {
+    "valor": "Matrícula 77.201 - 5º Registro de Imóveis",
+    "status": "ok",
+    "observacao": "Informação extraída diretamente do texto."
+  },
+  "onus": {
+    "valor": "Consta alienação fiduciária em favor de instituição financeira",
+    "status": "ok",
+    "observacao": "O documento confirma a existência de ônus (alienação fiduciária)."
+  },
+  "data_vistoria": {
+    "valor": "2025-03-22",
+    "status": "ok",
+    "observacao": "Data da vistoria mencionada no início do relatório."
+  },
+  "responsavel_tecnico": {
+    "valor": "Arq. Beatriz Nunes (CAU A987654-3)",
+    "status": "ok",
+    "observacao": "Profissional responsável técnico identificada no texto."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "Terreno",
+    "status": "ok",
+    "observacao": "O documento indica que se trata de terreno para incorporação."
+  },
+  "endereco": {
+    "valor": "Rua Projetada 4, s/n, Santos, SP",
+    "status": "ok",
+    "observacao": "Endereço completo obtido no resumo técnico."
+  },
+  "area_principal": {
+    "valor_m2": null,
+    "rotulo_original": null,
+    "status": "nao_aplicavel",
+    "observacao": "O imóvel é um terreno sem edificação, portanto não possui área construída."
+  },
+  "area_secundaria": {
+    "valor_m2": 1020.0,
+    "rotulo_original": "Superfície",
+    "status": "ok",
+    "observacao": "Área correspondente à superfície do terreno."
+  },
+  "ano_construcao": {
+    "valor": null,
+    "status": "nao_aplicavel",
+    "observacao": "O imóvel é um terreno sem edificação, sendo o ano de construção inexistente."
+  },
+  "valor_avaliacao": {
+    "valor": 2450000.0,
+    "status": "ok",
+    "observacao": "Valor de avaliação final informado no texto."
+  },
+  "matricula": {
+    "valor": "88.710",
+    "status": "ok",
+    "observacao": "Número de matrícula informado no texto."
+  },
+  "onus": {
+    "valor": null,
+    "status": "ausente",
+    "observacao": "O documento afirma que os ônus reais não foram informados."
+  },
+  "data_vistoria": {
+    "valor": "2025-05-16",
+    "status": "ok",
+    "observacao": "Data do levantamento adotada como data da vistoria."
+  },
+  "responsavel_tecnico": {
+    "valor": "Marcos Vieira, Eng. Civil, CREA-SP 5099988776",
+    "status": "ok",
+    "observacao": "Responsável técnico e registro profissional informados."
+  }
+}

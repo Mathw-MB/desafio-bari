@@ -1,0 +1,28 @@
+2026-09-26 22:11:39 [INFO] Log desta execução salvo em: testes/logs_exemplo/execucao_20260926_221139.log
+2026-09-26 22:11:39 [INFO] ======================================================================
+2026-09-26 22:11:39 [INFO] INÍCIO - Relatório Semanal do Funil de Crédito (Bari)
+2026-09-26 22:11:39 [INFO] Arquivo de entrada: testes/dados_sinteticos/valido.csv
+2026-09-26 22:11:39 [INFO] Formato(s) de saída solicitado(s): ambos
+2026-09-26 22:11:39 [INFO] ======================================================================
+2026-09-26 22:11:39 [INFO] encoding_usado: utf-8
+2026-09-26 22:11:39 [INFO] linhas_brutas: 300
+2026-09-26 22:11:39 [INFO] propostas_terreno_mantidas: 68
+2026-09-26 22:11:39 [INFO] checagem_valor_imovel: valor_imovel: 0 valor(es) não-convertível(eis) (0.000% das linhas) - dentro da taxa basal conhecida (0.000%).
+2026-09-26 22:11:39 [INFO] propostas_ltv_acima_60pct: 81
+2026-09-26 22:11:39 [INFO] checagem_data_entrada: data_entrada: 0 valor(es) não-convertível(eis) (0.000% das linhas) - dentro da taxa basal conhecida (0.000%).
+2026-09-26 22:11:39 [INFO] checagem_data_assinatura_contrato: data_assinatura_contrato: 0 valor(es) não-convertível(eis) (0.000% das linhas) - dentro da taxa basal conhecida (0.000%).
+2026-09-26 22:11:39 [INFO] checagem_idade_cliente: idade_cliente: 0 valor(es) não-convertível(eis) (0.000% das linhas) - dentro da taxa basal conhecida (0.000%).
+2026-09-26 22:11:39 [INFO] linhas_idade_invalida: 1
+2026-09-26 22:11:39 [INFO] linhas_etapa_corrigida: 1
+2026-09-26 22:11:39 [INFO] ids_etapa_corrigida: ['PR-000031']
+2026-09-26 22:11:39 [INFO] linhas_etapa_anomala_nao_corrigida: 1
+2026-09-26 22:11:39 [INFO] ids_etapa_anomala_nao_corrigida: ['PR-000032']
+2026-09-26 22:11:39 [INFO] linhas_data_inconsistente: 0
+2026-09-26 22:11:39 [INFO] linhas_ltv_nao_calculavel: 0
+2026-09-26 22:11:39 [INFO] linhas_tratadas: 300
+2026-09-26 22:11:39 [WARNING] 1 proposta(s) com etapa_max_funil fora do intervalo 1-6 sem segunda evidência para correção automática - mantidas como estão, ver ids_etapa_anomala_nao_corrigida no log.
+2026-09-26 22:11:40 [INFO] Relatório HTML gerado em: testes/saida_exemplo/relatorio_funil_20260926_221139.html
+2026-09-26 22:11:40 [INFO] Relatório Excel gerado em: testes/saida_exemplo/relatorio_funil_20260926_221139.xlsx
+2026-09-26 22:11:40 [INFO] Log estruturado (JSON) salvo em: testes/logs_exemplo/execucao_20260926_221139.json
+2026-09-26 22:11:40 [WARNING] Execução concluída COM 1 aviso(s) - revise o log antes de repassar o relatório.
+2026-09-26 22:11:40 [INFO] ======================================================================

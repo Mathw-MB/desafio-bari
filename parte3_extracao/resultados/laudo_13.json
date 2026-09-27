@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "Apartamento",
+    "status": "ok",
+    "observacao": "Imóvel classificado como apartamento no documento."
+  },
+  "endereco": {
+    "valor": "Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ",
+    "status": "ok",
+    "observacao": "Endereço completo obtido do texto."
+  },
+  "area_principal": {
+    "valor_m2": 112.0,
+    "rotulo_original": "Área útil",
+    "status": "ok",
+    "observacao": "Refere-se à área construída/útil."
+  },
+  "area_secundaria": {
+    "valor_m2": 155.0,
+    "rotulo_original": "Área total",
+    "status": "ok",
+    "observacao": "Refere-se à área total do imóvel."
+  },
+  "ano_construcao": {
+    "valor": 1987,
+    "status": "ok",
+    "observacao": "Ano de construção informado diretamente no texto."
+  },
+  "valor_avaliacao": {
+    "valor": 1320000.0,
+    "status": "ok",
+    "observacao": "Valor estimado informado no texto."
+  },
+  "matricula": {
+    "valor": "Matrícula 145.230 do 7º RGI",
+    "status": "ok",
+    "observacao": "Dados de matrícula extraídos do texto."
+  },
+  "onus": {
+    "valor": "penhora cancelada, conforme averbação",
+    "status": "ok",
+    "observacao": "O documento relata a existência de penhora cancelada por averbação."
+  },
+  "data_vistoria": {
+    "valor": "2025-05-30",
+    "status": "ok",
+    "observacao": "Convertida a data para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Eduardo Sampaio, CNAI 67890",
+    "status": "ok",
+    "observacao": "Nome e registro profissional do avaliador."
+  }
+}

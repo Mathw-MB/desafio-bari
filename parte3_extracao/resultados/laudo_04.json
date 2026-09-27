@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "terreno urbano",
+    "status": "ok",
+    "observacao": "Informado explicitamente como terreno urbano."
+  },
+  "endereco": {
+    "valor": "Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO",
+    "status": "ok",
+    "observacao": "Endereço completo obtido da ficha de avaliação."
+  },
+  "area_principal": {
+    "valor_m2": null,
+    "rotulo_original": null,
+    "status": "nao_aplicavel",
+    "observacao": "Trata-se de um terreno sem edificação informada, logo a área construída principal não se aplica."
+  },
+  "area_secundaria": {
+    "valor_m2": 360.0,
+    "rotulo_original": "Área do terreno",
+    "status": "ok",
+    "observacao": "Área do terreno registrada como 360 m2."
+  },
+  "ano_construcao": {
+    "valor": null,
+    "status": "nao_aplicavel",
+    "observacao": "O próprio documento indica 'não se aplica' por se tratar de um terreno."
+  },
+  "valor_avaliacao": {
+    "valor": 218000.0,
+    "status": "ok",
+    "observacao": "Valor de mercado informado como R$ 218.000."
+  },
+  "matricula": {
+    "valor": "102.334",
+    "status": "ok",
+    "observacao": "Número de matrícula obtido do texto."
+  },
+  "onus": {
+    "valor": null,
+    "status": "ausente",
+    "observacao": "Documento diz 'nada informado no documento apresentado'."
+  },
+  "data_vistoria": {
+    "valor": "2025-04-02",
+    "status": "ok",
+    "observacao": "Convertido da data original 02/04/2025 para o formato ISO."
+  },
+  "responsavel_tecnico": {
+    "valor": "Paulo Sérgio Reis, CREA 12345/D-GO",
+    "status": "ok",
+    "observacao": "Nome e CREA obtidos do campo RT."
+  }
+}

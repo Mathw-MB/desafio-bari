@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "apartamento",
+    "status": "ok",
+    "observacao": "Imóvel classificado como apartamento residencial."
+  },
+  "endereco": {
+    "valor": "Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP",
+    "status": "ok",
+    "observacao": "Endereço completo extraído do texto."
+  },
+  "area_principal": {
+    "valor_m2": 78.4,
+    "rotulo_original": "área privativa",
+    "status": "ok",
+    "observacao": "Área privativa considerada como área principal/construída."
+  },
+  "area_secundaria": {
+    "valor_m2": 102.1,
+    "rotulo_original": "área total",
+    "status": "ok",
+    "observacao": "Área total do imóvel registrada como área secundária."
+  },
+  "ano_construcao": {
+    "valor": 2014,
+    "status": "ok",
+    "observacao": "Ano de construção informado diretamente no texto."
+  },
+  "valor_avaliacao": {
+    "valor": 642000.0,
+    "status": "ok",
+    "observacao": "Valor de avaliação extraído do texto."
+  },
+  "matricula": {
+    "valor": "184.772 do 14º CRI de São Paulo",
+    "status": "ok",
+    "observacao": "Matrícula e cartório informados no laudo."
+  },
+  "onus": {
+    "valor": "não foram identificados ônus na certidão analisada",
+    "status": "ok",
+    "observacao": "Documento confirma explicitamente a ausência de ônus na certidão."
+  },
+  "data_vistoria": {
+    "valor": "2025-03-12",
+    "status": "ok",
+    "observacao": "Data convertida para o formato ISO a partir de 12/03/2025."
+  },
+  "responsavel_tecnico": {
+    "valor": "Eng. Marina Albuquerque - CREA-SP 5061234567",
+    "status": "ok",
+    "observacao": "Responsável técnico e registro profissional informados."
+  }
+}

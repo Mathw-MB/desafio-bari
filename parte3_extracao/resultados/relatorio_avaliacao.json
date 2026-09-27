@@ -1,0 +1,102 @@
+{
+  "placar_geral": {
+    "total_campos": 170,
+    "acertos_completos": 167,
+    "pct_acerto_completo": 98.2,
+    "status_corretos": 170,
+    "pct_status_correto": 100.0
+  },
+  "casos_chave": [
+    {
+      "laudo": "laudo_04",
+      "campo": "ano_construcao",
+      "descricao": "terreno sem edificação",
+      "passou": true,
+      "status_obtido": "nao_aplicavel",
+      "valor_obtido": null
+    },
+    {
+      "laudo": "laudo_04",
+      "campo": "onus",
+      "descricao": "'nada informado no documento'",
+      "passou": true,
+      "status_obtido": "ausente",
+      "valor_obtido": null
+    },
+    {
+      "laudo": "laudo_08",
+      "campo": "matricula",
+      "descricao": "'matrícula não apresentada'",
+      "passou": true,
+      "status_obtido": "ausente",
+      "valor_obtido": null
+    },
+    {
+      "laudo": "laudo_08",
+      "campo": "onus",
+      "descricao": "'não foi possível verificar'",
+      "passou": true,
+      "status_obtido": "ausente",
+      "valor_obtido": null
+    },
+    {
+      "laudo": "laudo_11",
+      "campo": "ano_construcao",
+      "descricao": "'ano de construção: inexistente'",
+      "passou": true,
+      "status_obtido": "nao_aplicavel",
+      "valor_obtido": null
+    },
+    {
+      "laudo": "laudo_17",
+      "campo": "area_secundaria",
+      "descricao": "95 no cabeçalho vs 92 na tabela",
+      "passou": true,
+      "status_obtido": "contraditorio",
+      "valor_obtido": null
+    },
+    {
+      "laudo": "laudo_05",
+      "campo": "area_secundaria",
+      "descricao": "unidade em hectares, não m² — valor_m2 deveria vir convertido (~48000), não 4.8",
+      "passou": true,
+      "status_obtido": "ok",
+      "valor_obtido": 48000.0
+    }
+  ],
+  "erros_detalhados": [
+    {
+      "campo": "endereco",
+      "status_esperado": "ok",
+      "status_obtido": "ok",
+      "status_correto": true,
+      "valor_esperado": "Rua do Comércio, 77, Edifício Horizonte, sala 503, Curitiba/PR",
+      "valor_obtido": "Rua do Comércio, 77, Curitiba/PR",
+      "valor_correto": false,
+      "acerto_total": false,
+      "laudo": "laudo_03"
+    },
+    {
+      "campo": "onus",
+      "status_esperado": "ok",
+      "status_obtido": "ok",
+      "status_correto": true,
+      "valor_esperado": "penhora cancelada (data do cancelamento não informada)",
+      "valor_obtido": "penhora cancelada, conforme averbação",
+      "valor_correto": false,
+      "acerto_total": false,
+      "laudo": "laudo_13"
+    },
+    {
+      "campo": "tipo_imovel",
+      "status_esperado": "ok",
+      "status_obtido": "ok",
+      "status_correto": true,
+      "valor_esperado": "unidade comercial",
+      "valor_obtido": "sala comercial",
+      "valor_correto": false,
+      "acerto_total": false,
+      "laudo": "laudo_16"
+    }
+  ]
+}

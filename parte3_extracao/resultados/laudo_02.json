@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "casa térrea",
+    "status": "ok",
+    "observacao": "Imóvel identificado como casa térrea."
+  },
+  "endereco": {
+    "valor": "Av. Central, 900, bloco B, Belo Horizonte - MG",
+    "status": "ok",
+    "observacao": "Endereço completo extraído do texto."
+  },
+  "area_principal": {
+    "valor_m2": 146.0,
+    "rotulo_original": "área construída",
+    "status": "ok",
+    "observacao": "Área edificada do imóvel."
+  },
+  "area_secundaria": {
+    "valor_m2": 250.0,
+    "rotulo_original": "lote",
+    "status": "ok",
+    "observacao": "Área do terreno/lote associada ao imóvel."
+  },
+  "ano_construcao": {
+    "valor": 2008,
+    "status": "ok",
+    "observacao": "Ano de construção explicitamente informado no texto."
+  },
+  "valor_avaliacao": {
+    "valor": 680000.0,
+    "status": "ok",
+    "observacao": "Valor de avaliação extraído e convertido para formato numérico."
+  },
+  "matricula": {
+    "valor": "45.981, Cartório do 3º Ofício",
+    "status": "ok",
+    "observacao": "Número de matrícula e cartório informados no texto."
+  },
+  "onus": {
+    "valor": "sem gravames conhecidos",
+    "status": "ok",
+    "observacao": "O documento confirma expressamente a ausência de ônus/gravames."
+  },
+  "data_vistoria": {
+    "valor": "2025-03-18",
+    "status": "ok",
+    "observacao": "Data da inspeção convertida para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Carlos Henrique Moura, CAU A123456-7",
+    "status": "ok",
+    "observacao": "Nome e registro profissional do avaliador."
+  }
+}

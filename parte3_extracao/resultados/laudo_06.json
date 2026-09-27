@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "apartamento",
+    "status": "ok",
+    "observacao": "Imóvel explicitamente descrito como apartamento."
+  },
+  "endereco": {
+    "valor": "Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100",
+    "status": "ok",
+    "observacao": "Endereço completo extraído do texto."
+  },
+  "area_principal": {
+    "valor_m2": 61.0,
+    "rotulo_original": "área privativa",
+    "status": "ok",
+    "observacao": "Refere-se à área privativa edificada."
+  },
+  "area_secundaria": {
+    "valor_m2": 84.0,
+    "rotulo_original": "área total",
+    "status": "ok",
+    "observacao": "Refere-se à área total do imóvel."
+  },
+  "ano_construcao": {
+    "valor": 2018,
+    "status": "ok",
+    "observacao": "Ano de construção mencionado diretamente no texto."
+  },
+  "valor_avaliacao": {
+    "valor": 455000.0,
+    "status": "ok",
+    "observacao": "Valor de avaliação extraído diretamente do documento."
+  },
+  "matricula": {
+    "valor": "9.876, 2º RGI do Recife",
+    "status": "ok",
+    "observacao": "Número de matrícula e cartório obtidos do texto."
+  },
+  "onus": {
+    "valor": null,
+    "status": "ausente",
+    "observacao": "Texto declara que 'Não consta informação sobre ônus'."
+  },
+  "data_vistoria": {
+    "valor": "2025-04-15",
+    "status": "ok",
+    "observacao": "Data da vistoria convertida para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Fernanda Lins, CREA 18001/PE",
+    "status": "ok",
+    "observacao": "Nome e registro profissional extraídos do laudo."
+  }
+}

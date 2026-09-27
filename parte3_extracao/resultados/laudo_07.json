@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "Casa geminada",
+    "status": "ok",
+    "observacao": "Imóvel identificado como casa geminada no início do relatório."
+  },
+  "endereco": {
+    "valor": "Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS",
+    "status": "ok",
+    "observacao": "Endereço completo extraído do cabeçalho."
+  },
+  "area_principal": {
+    "valor_m2": 92.5,
+    "rotulo_original": "área edificada",
+    "status": "ok",
+    "observacao": "Refere-se à área edificada/construída da casa."
+  },
+  "area_secundaria": {
+    "valor_m2": 125.0,
+    "rotulo_original": "Terreno",
+    "status": "ok",
+    "observacao": "Refere-se à área total do terreno."
+  },
+  "ano_construcao": {
+    "valor": 2011,
+    "status": "ok",
+    "observacao": "Informado pelo proprietário."
+  },
+  "valor_avaliacao": {
+    "valor": 372000.0,
+    "status": "ok",
+    "observacao": "Valor venal adotado mencionado no laudo."
+  },
+  "matricula": {
+    "valor": "Matrícula 66.504 do Registro de Imóveis da 4ª Zona",
+    "status": "ok",
+    "observacao": "Número de matrícula e cartório informados explicitamente."
+  },
+  "onus": {
+    "valor": "Há penhora averbada",
+    "status": "ok",
+    "observacao": "Documento confirma a existência de ônus (penhora averbada)."
+  },
+  "data_vistoria": {
+    "valor": "2025-04-20",
+    "status": "ok",
+    "observacao": "Data da vistoria explicitamente informada."
+  },
+  "responsavel_tecnico": {
+    "valor": "Eng. Rafael Costa, CREA-RS 222333",
+    "status": "ok",
+    "observacao": "Nome e registro profissional informados no final do laudo."
+  }
+}

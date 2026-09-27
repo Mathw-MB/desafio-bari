@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "casa residencial",
+    "status": "ok",
+    "observacao": "Mencionado no texto como 'Casa residencial'."
+  },
+  "endereco": {
+    "valor": "Alameda das Flores 88, Florianópolis/SC",
+    "status": "ok",
+    "observacao": "Extraído diretamente do cabeçalho do documento."
+  },
+  "area_principal": {
+    "valor_m2": 198.0,
+    "rotulo_original": "área construída",
+    "status": "ok",
+    "observacao": "Área correspondente à construção."
+  },
+  "area_secundaria": {
+    "valor_m2": 420.0,
+    "rotulo_original": "área do lote",
+    "status": "ok",
+    "observacao": "Área correspondente ao terreno."
+  },
+  "ano_construcao": {
+    "valor": 2020,
+    "status": "ok",
+    "observacao": "Mencionado diretamente como o ano da construção."
+  },
+  "valor_avaliacao": {
+    "valor": 1080000.0,
+    "status": "ok",
+    "observacao": "Valor apurado informado no laudo."
+  },
+  "matricula": {
+    "valor": "Matrícula 12.909, 1º Ofício",
+    "status": "ok",
+    "observacao": "Informação de registro do imóvel."
+  },
+  "onus": {
+    "valor": "inexistência de ônus reais",
+    "status": "ok",
+    "observacao": "A certidão indica confirmação da inexistência de ônus."
+  },
+  "data_vistoria": {
+    "valor": "2025-05-03",
+    "status": "ok",
+    "observacao": "Data da inspeção presencial convertida para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Eng. Thiago Martins, CREA-SC 7654321",
+    "status": "ok",
+    "observacao": "Nome e registro profissional extraídos do laudo."
+  }
+}

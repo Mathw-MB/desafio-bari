@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "loja térrea com sobreloja",
+    "status": "ok",
+    "observacao": "Imóvel descrito como loja térrea com sobreloja."
+  },
+  "endereco": {
+    "valor": "Rua Sete de Setembro, 410, Salvador/BA",
+    "status": "ok",
+    "observacao": "Endereço extraído diretamente do laudo."
+  },
+  "area_principal": {
+    "valor_m2": 118.0,
+    "rotulo_original": "Área construída aproximada",
+    "status": "ok",
+    "observacao": "Área construída indicada como aproximada."
+  },
+  "area_secundaria": {
+    "valor_m2": null,
+    "rotulo_original": null,
+    "status": "ausente",
+    "observacao": "Não há menção a área secundária, terreno ou lote no documento."
+  },
+  "ano_construcao": {
+    "valor": 2005,
+    "status": "ok",
+    "observacao": "Informado como ano de referência no laudo."
+  },
+  "valor_avaliacao": {
+    "valor": 910000.0,
+    "status": "ok",
+    "observacao": "Valor extraído diretamente do texto."
+  },
+  "matricula": {
+    "valor": null,
+    "status": "ausente",
+    "observacao": "Matrícula não apresentada."
+  },
+  "onus": {
+    "valor": null,
+    "status": "ausente",
+    "observacao": "Não foi possível verificar por ausência de certidão."
+  },
+  "data_vistoria": {
+    "valor": "2025-04-29",
+    "status": "ok",
+    "observacao": "Data da vistoria convertida para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Luciana Prado - CNAI 12345",
+    "status": "ok",
+    "observacao": "Responsável técnico e registro extraídos do laudo."
+  }
+}

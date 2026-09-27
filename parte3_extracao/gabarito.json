@@ -1,0 +1,925 @@
+{
+  "_leia_isto_primeiro": "Gabarito (ground truth) construido manualmente, lendo os 17 laudos originais um a um, ANTES de rodar qualquer extrator. Serve como base do criterio de acerto (Task 4). Cada campo tem: valor (o que esta certo), status (ok | ausente | nao_aplicavel | contraditorio) e obs (por que decidimos isso). 'ausente' = a informacao nao esta no documento. 'nao_aplicavel' = o campo nao existe para esse tipo de imovel (ex.: ano de construcao de um terreno vazio). 'contraditorio' = o proprio documento se contradiz.",
+  "laudo_01": {
+    "tipo_imovel": {
+      "valor": "apartamento residencial",
+      "status": "ok",
+      "obs": "explicito no texto"
+    },
+    "endereco": {
+      "valor": "Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 78.4,
+      "rotulo_original": "área privativa",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 102.1,
+      "rotulo_original": "área total",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2014,
+      "status": "ok",
+      "obs": ""
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 642000.0
+    },
+    "matricula": {
+      "valor": "184.772 do 14º CRI de São Paulo",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "sem ônus",
+      "status": "ok",
+      "obs": "confirmado via certidão analisada, não é apenas ausência de menção"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-03-12"
+    },
+    "responsavel_tecnico": {
+      "valor": "Eng. Marina Albuquerque - CREA-SP 5061234567",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_02": {
+    "tipo_imovel": {
+      "valor": "casa térrea",
+      "status": "ok",
+      "obs": "inferido de 'Trata-se de uma casa térrea', não rotulado com 'Tipo:'"
+    },
+    "endereco": {
+      "valor": "Av. Central, 900, bloco B, Belo Horizonte - MG",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 146.0,
+      "rotulo_original": "área construída",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 250,
+      "rotulo_original": "lote",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2008,
+      "status": "ok",
+      "obs": ""
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "valor por extenso ('seiscentos e oitenta mil reais') confirma o numérico, sem conflito",
+      "valor": 680000.0
+    },
+    "matricula": {
+      "valor": "45.981, Cartório do 3º Ofício",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "sem ônus",
+      "status": "ok",
+      "obs": "'sem gravames conhecidos'"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-03-18"
+    },
+    "responsavel_tecnico": {
+      "valor": "Carlos Henrique Moura, CAU A123456-7",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_03": {
+    "tipo_imovel": {
+      "valor": "sala comercial",
+      "status": "ok",
+      "obs": "inferido do contexto"
+    },
+    "endereco": {
+      "valor": "Rua do Comércio, 77, Edifício Horizonte, sala 503, Curitiba/PR",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 54.8,
+      "rotulo_original": "área útil",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 18.2,
+      "rotulo_original": "área comum proporcional",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2014,
+      "status": "ok",
+      "obs": "NÃO é ano explícito. Derivado de 'idade aparente: 11 anos' + data da vistoria (22/03/2025) => 2025-11=2014. É estimativa do avaliador, não data de registro. Um extrator que não sinalizar isso está escondendo incerteza."
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 395500.0
+    },
+    "matricula": {
+      "valor": "77.201 - 5º Registro de Imóveis",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "alienação fiduciária em favor de instituição financeira",
+      "status": "ok",
+      "obs": "laudo recomenda atualização da certidão - ônus pode estar desatualizado, mas o valor extraído está correto"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "data por extenso: 'Em 22 de março de 2025'",
+      "valor": "2025-03-22"
+    },
+    "responsavel_tecnico": {
+      "valor": "Arq. Beatriz Nunes (CAU A987654-3)",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_04": {
+    "tipo_imovel": {
+      "valor": "terreno urbano",
+      "status": "ok",
+      "obs": "explícito"
+    },
+    "endereco": {
+      "valor": "Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": null,
+      "rotulo_original": null,
+      "status": "nao_aplicavel",
+      "obs": "terreno sem edificação - não existe 'área construída' para este imóvel"
+    },
+    "area_secundaria": {
+      "valor_m2": 360,
+      "rotulo_original": "área do terreno",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": null,
+      "status": "nao_aplicavel",
+      "obs": "documento diz explicitamente 'não se aplica' - não é campo faltando, é campo que não existe para este tipo de imóvel"
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 218000.0
+    },
+    "matricula": {
+      "valor": "102.334",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": null,
+      "status": "ausente",
+      "obs": "'nada informado no documento apresentado' - documento não afirma nem nega ônus, apenas não trata do assunto"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-04-02"
+    },
+    "responsavel_tecnico": {
+      "valor": "Paulo Sérgio Reis, CREA 12345/D-GO",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_05": {
+    "tipo_imovel": {
+      "valor": "imóvel rural (Sítio Boa Vista)",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Sítio Boa Vista, Município de Campinas, UF SP",
+      "status": "ok",
+      "obs": "endereço rural, sem logradouro numerado convencional"
+    },
+    "area_principal": {
+      "valor_m2": 310,
+      "rotulo_original": "benfeitorias construídas",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 48000.0,
+      "rotulo_original": "área do terreno (originalmente 4,8 hectares)",
+      "status": "ok",
+      "obs": "ARMADILHA DE UNIDADE: o laudo informa a área em HECTARES ('4,8 ha'), não m² como os outros 16. O valor correto aqui, em metros quadrados, é 4,8 x 10.000 = 48.000. Um extrator que copiar '4.8' direto para valor_m2 sem converter está cometendo um erro de duas ordens de grandeza — e é exatamente esse erro que este caso-teste existe para pegar."
+    },
+    "ano_construcao": {
+      "valor": 1999,
+      "status": "ok",
+      "obs": "rotulado como 'ano das edificações'"
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 1275000.0
+    },
+    "matricula": {
+      "valor": "32.110",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "reserva legal registrada, sem hipoteca apontada",
+      "status": "ok",
+      "obs": ""
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-04-07"
+    },
+    "responsavel_tecnico": {
+      "valor": "João A. Farias, CREA-SP 5076543210",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_06": {
+    "tipo_imovel": {
+      "valor": "apartamento",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 61,
+      "rotulo_original": "área privativa",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 84,
+      "rotulo_original": "área total",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2018,
+      "status": "ok",
+      "obs": ""
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "confirmado pelo valor por extenso",
+      "valor": 455000.0
+    },
+    "matricula": {
+      "valor": "9.876, 2º RGI do Recife",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": null,
+      "status": "ausente",
+      "obs": "'não consta informação sobre ônus'"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-04-15"
+    },
+    "responsavel_tecnico": {
+      "valor": "Fernanda Lins, CREA 18001/PE",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_07": {
+    "tipo_imovel": {
+      "valor": "casa geminada",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 92.5,
+      "rotulo_original": "área edificada",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 125.0,
+      "rotulo_original": "terreno",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2011,
+      "status": "ok",
+      "obs": "'informado pelo proprietário' - fonte é declaração do dono, não documento de registro. Extraído como está, mas sem verificação independente."
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 372000.0
+    },
+    "matricula": {
+      "valor": "66.504 do Registro de Imóveis da 4ª Zona",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "penhora averbada",
+      "status": "ok",
+      "obs": ""
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "ARMADILHA: o texto menciona 20/04/2025 DUAS vezes em contextos diferentes - uma como data de consulta ao documento de ônus ('conforme documento consultado em 20/04/2025') e outra explicitamente rotulada 'Data da vistoria: 20-04-2025'. As datas coincidem aqui, mas um extrator ingênuo pode pegar a primeira ocorrência pelo motivo errado.",
+      "valor": "2025-04-20"
+    },
+    "responsavel_tecnico": {
+      "valor": "Eng. Rafael Costa, CREA-RS 222333",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_08": {
+    "tipo_imovel": {
+      "valor": "loja térrea com sobreloja",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Rua Sete de Setembro, 410, Salvador/BA",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 118,
+      "rotulo_original": "área construída aproximada",
+      "status": "ok",
+      "obs": "laudo já qualifica como 'aproximada'"
+    },
+    "area_secundaria": {
+      "valor_m2": null,
+      "rotulo_original": null,
+      "status": "ausente",
+      "obs": "este laudo só menciona UMA área - não há segunda medida (nem terreno, nem área total)"
+    },
+    "ano_construcao": {
+      "valor": 2005,
+      "status": "ok",
+      "obs": "rotulado como 'ano de referência', não explicitamente 'ano de construção' - ambiguidade leve, mantido como o melhor proxy disponível"
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 910000.0
+    },
+    "matricula": {
+      "valor": null,
+      "status": "ausente",
+      "obs": "'Matrícula não apresentada.' - texto explícito confirmando ausência, não falha de extração"
+    },
+    "onus": {
+      "valor": null,
+      "status": "ausente",
+      "obs": "'não foi possível verificar por ausência de certidão' - IMPORTANTE: isso é diferente de 'sem ônus'. Aqui não se sabe se há ônus ou não; em laudo_01/02/09 o laudo CONFIRMA a ausência de ônus via certidão. Um extrator que tratar os dois casos como equivalentes está perdendo uma distinção real."
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-04-29"
+    },
+    "responsavel_tecnico": {
+      "valor": "Luciana Prado - CNAI 12345",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_09": {
+    "tipo_imovel": {
+      "valor": "casa residencial",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Alameda das Flores 88, Florianópolis/SC",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 198.0,
+      "rotulo_original": "área construída",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 420.0,
+      "rotulo_original": "área do lote",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2020,
+      "status": "ok",
+      "obs": ""
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 1080000.0
+    },
+    "matricula": {
+      "valor": "12.909, 1º Ofício",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "sem ônus",
+      "status": "ok",
+      "obs": "'certidão indica inexistência de ônus reais' - confirmado, não apenas ausência de menção"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-05-03"
+    },
+    "responsavel_tecnico": {
+      "valor": "Eng. Thiago Martins, CREA-SC 7654321",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_10": {
+    "tipo_imovel": {
+      "valor": "apartamento",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Condomínio Parque Norte, SQN 214, bloco C, apto 407, Brasília/DF",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 96.3,
+      "rotulo_original": "área privativa",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 127.6,
+      "rotulo_original": "área total",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2016,
+      "status": "ok",
+      "obs": "rotulado 'ano de conclusão'"
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 735000.0
+    },
+    "matricula": {
+      "valor": "201.443",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "alienação fiduciária mencionada na matrícula",
+      "status": "ok",
+      "obs": ""
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-05-09"
+    },
+    "responsavel_tecnico": {
+      "valor": "Denise Carvalho, CREA-DF 112233",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_11": {
+    "tipo_imovel": {
+      "valor": "terreno para incorporação",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Rua Projetada 4, s/n, Santos, SP",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": null,
+      "rotulo_original": null,
+      "status": "nao_aplicavel",
+      "obs": "'Sem edificação' - explícito"
+    },
+    "area_secundaria": {
+      "valor_m2": 1020,
+      "rotulo_original": "superfície do terreno",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": null,
+      "status": "nao_aplicavel",
+      "obs": "'ano de construção: inexistente' - explícito, mesmo padrão do laudo_04"
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 2450000.0
+    },
+    "matricula": {
+      "valor": "88.710",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": null,
+      "status": "ausente",
+      "obs": "'ônus reais não informados'"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "rotulado 'data do levantamento'",
+      "valor": "2025-05-16"
+    },
+    "responsavel_tecnico": {
+      "valor": "Marcos Vieira, Eng. Civil, CREA-SP 5099988776",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_12": {
+    "tipo_imovel": {
+      "valor": "casa de alto padrão",
+      "status": "ok",
+      "obs": "explícito ('Tipo de propriedade')"
+    },
+    "endereco": {
+      "valor": "Rua das Bromélias, 500, Lago Sul, Brasília - DF",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 285,
+      "rotulo_original": "área construída",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 600,
+      "rotulo_original": "terreno",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2012,
+      "status": "ok",
+      "obs": ""
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 2180000.0
+    },
+    "matricula": {
+      "valor": "54.122",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "servidão de passagem registrada",
+      "status": "ok",
+      "obs": ""
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-05-23"
+    },
+    "responsavel_tecnico": {
+      "valor": "Arq. Andréa Melo, CAU A445566-1",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_13": {
+    "tipo_imovel": {
+      "valor": "apartamento",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 112.0,
+      "rotulo_original": "área útil",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 155.0,
+      "rotulo_original": "área total",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 1987,
+      "status": "ok",
+      "obs": ""
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 1320000.0
+    },
+    "matricula": {
+      "valor": "145.230 do 7º RGI",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "penhora cancelada (data do cancelamento não informada)",
+      "status": "ok",
+      "obs": "o ônus em si está claro (cancelado); só um sub-detalhe (a data) está faltando - não confundir com o campo inteiro estando ausente"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-05-30"
+    },
+    "responsavel_tecnico": {
+      "valor": "Eduardo Sampaio, CNAI 67890",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_14": {
+    "tipo_imovel": {
+      "valor": "galpão industrial",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Rodovia BR-116, km 12, Betim/MG",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 1450,
+      "rotulo_original": "área coberta",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 3000,
+      "rotulo_original": "terreno",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2007,
+      "status": "ok",
+      "obs": "Derivado de 'idade: aproximadamente 18 anos' + vistoria 05/06/2025 => 2025-18=2007. Estimativa, mesma lógica do laudo_03."
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 3900000.0
+    },
+    "matricula": {
+      "valor": "70.008",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": null,
+      "status": "ausente",
+      "obs": "'não há menção a ônus'"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-06-05"
+    },
+    "responsavel_tecnico": {
+      "valor": "Sérgio Tavares, CREA-MG 998877",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_15": {
+    "tipo_imovel": {
+      "valor": "casa",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Rua Monte Verde, 19, Curitiba-PR",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 135,
+      "rotulo_original": "área construída",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 200,
+      "rotulo_original": "área do terreno",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2003,
+      "status": "ok",
+      "obs": ""
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 590000.0
+    },
+    "matricula": {
+      "valor": "39.240",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "hipoteca ativa",
+      "status": "ok",
+      "obs": ""
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-06-12"
+    },
+    "responsavel_tecnico": {
+      "valor": "Patrícia Gomes, Eng. Civil, CREA-PR 123123",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_16": {
+    "tipo_imovel": {
+      "valor": "unidade comercial",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Rua do Sol, 250, Campinas/SP",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 42.0,
+      "rotulo_original": "área privativa",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": 67.0,
+      "rotulo_original": "área total",
+      "status": "ok",
+      "obs": ""
+    },
+    "ano_construcao": {
+      "valor": 2010,
+      "status": "ok",
+      "obs": ""
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 288000.0
+    },
+    "matricula": {
+      "valor": "101.010",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": null,
+      "status": "ausente",
+      "obs": "'sem informação'"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-06-19"
+    },
+    "responsavel_tecnico": {
+      "valor": "Guilherme Rocha, CREA-SP 501010",
+      "status": "ok",
+      "obs": ""
+    }
+  },
+  "laudo_17": {
+    "tipo_imovel": {
+      "valor": "apartamento residencial",
+      "status": "ok",
+      "obs": ""
+    },
+    "endereco": {
+      "valor": "Rua Harmonia, 44, Vila Madalena, São Paulo/SP",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_principal": {
+      "valor_m2": 70,
+      "rotulo_original": "área privativa",
+      "status": "ok",
+      "obs": ""
+    },
+    "area_secundaria": {
+      "valor_m2": null,
+      "rotulo_original": "área total",
+      "status": "contraditorio",
+      "obs": "CASO-TESTE CENTRAL: cabeçalho indica 95 m², tabela interna indica 92 m². O próprio laudo instrui 'manter a divergência para conferência'. A resposta certa é reportar os dois valores e marcar como contraditório - NUNCA escolher um dos dois ou fazer média.",
+      "valores_conflitantes": [
+        95,
+        92
+      ]
+    },
+    "ano_construcao": {
+      "valor": 2015,
+      "status": "ok",
+      "obs": ""
+    },
+    "valor_avaliacao": {
+      "status": "ok",
+      "obs": "",
+      "valor": 610000.0
+    },
+    "matricula": {
+      "valor": "176.543",
+      "status": "ok",
+      "obs": ""
+    },
+    "onus": {
+      "valor": "sem ônus (declarado pelo proprietário, certidão não anexada)",
+      "status": "ok",
+      "obs": "diferente de laudo_01/02/09: aqui a ausência de ônus é uma DECLARAÇÃO do proprietário, não uma confirmação via certidão oficial - vale registrar a diferença de confiabilidade da fonte"
+    },
+    "data_vistoria": {
+      "status": "ok",
+      "obs": "",
+      "valor": "2025-06-25"
+    },
+    "responsavel_tecnico": {
+      "valor": "Marina Albuquerque, CREA-SP 5061234567",
+      "status": "ok",
+      "obs": "mesma responsável técnica do laudo_01 - coincidência real, não erro de extração"
+    }
+  }
+}

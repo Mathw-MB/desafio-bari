@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "galpão industrial",
+    "status": "ok",
+    "observacao": "Identificado no texto como galpão industrial."
+  },
+  "endereco": {
+    "valor": "Rodovia BR-116, km 12, Betim/MG",
+    "status": "ok",
+    "observacao": "Endereço extraído diretamente do texto."
+  },
+  "area_principal": {
+    "valor_m2": 1450.0,
+    "rotulo_original": "Área coberta",
+    "status": "ok",
+    "observacao": "Área coberta tratada como área construída/edificada principal."
+  },
+  "area_secundaria": {
+    "valor_m2": 3000.0,
+    "rotulo_original": "terreno",
+    "status": "ok",
+    "observacao": "Área do terreno registrada como área secundária."
+  },
+  "ano_construcao": {
+    "valor": 2007,
+    "status": "ok",
+    "observacao": "Calculado a partir da idade aproximada de 18 anos subtraída do ano da vistoria (2025). É uma estimativa."
+  },
+  "valor_avaliacao": {
+    "valor": 3900000.0,
+    "status": "ok",
+    "observacao": "Valor indicado pelo método comparativo."
+  },
+  "matricula": {
+    "valor": "70.008",
+    "status": "ok",
+    "observacao": "Número de matrícula extraído do texto."
+  },
+  "onus": {
+    "valor": null,
+    "status": "ausente",
+    "observacao": "O documento diz 'Não há menção a ônus'."
+  },
+  "data_vistoria": {
+    "valor": "2025-06-05",
+    "status": "ok",
+    "observacao": "Data da vistoria convertida para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Sérgio Tavares, CREA-MG 998877",
+    "status": "ok",
+    "observacao": "Nome e registro profissional extraídos do texto."
+  }
+}

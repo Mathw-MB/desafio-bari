@@ -1,0 +1,54 @@
+{
+  "tipo_imovel": {
+    "valor": "apartamento",
+    "status": "ok",
+    "observacao": "Imóvel descrito como apartamento no Condomínio Parque Norte."
+  },
+  "endereco": {
+    "valor": "SQN 214, bloco C, apto 407, Condomínio Parque Norte, Brasília/DF",
+    "status": "ok",
+    "observacao": "Endereço completo extraído do texto do laudo."
+  },
+  "area_principal": {
+    "valor_m2": 96.3,
+    "rotulo_original": "Área privativa",
+    "status": "ok",
+    "observacao": "Área privativa construída adotada como área principal."
+  },
+  "area_secundaria": {
+    "valor_m2": 127.6,
+    "rotulo_original": "Área total",
+    "status": "ok",
+    "observacao": "Área total do imóvel informada como grandeza secundária."
+  },
+  "ano_construcao": {
+    "valor": 2016,
+    "status": "ok",
+    "observacao": "Informado como ano de conclusão no laudo."
+  },
+  "valor_avaliacao": {
+    "valor": 735000.0,
+    "status": "ok",
+    "observacao": "Valor de mercado informado para a avaliação."
+  },
+  "matricula": {
+    "valor": "201.443",
+    "status": "ok",
+    "observacao": "Número de matrícula obtido no texto."
+  },
+  "onus": {
+    "valor": "alienação fiduciária",
+    "status": "ok",
+    "observacao": "Constatada a existência de ônus por alienação fiduciária mencionada na matrícula."
+  },
+  "data_vistoria": {
+    "valor": "2025-05-09",
+    "status": "ok",
+    "observacao": "Data da vistoria convertida para o formato ISO AAAA-MM-DD."
+  },
+  "responsavel_tecnico": {
+    "valor": "Denise Carvalho, CREA-DF 112233",
+    "status": "ok",
+    "observacao": "Perita responsável identificada no documento."
+  }
+}

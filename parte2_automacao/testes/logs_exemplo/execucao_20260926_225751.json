@@ -1,0 +1,31 @@
+{
+  "timestamp": "20260926_225751",
+  "arquivo_entrada": "testes/dados_sinteticos/valido.csv",
+  "log_tratamento": {
+    "avisos": [
+      "1 proposta(s) com etapa_max_funil fora do intervalo 1-6 sem segunda evidência para correção automática - mantidas como estão, ver ids_etapa_anomala_nao_corrigida no log."
+    ],
+    "encoding_usado": "utf-8",
+    "linhas_brutas": 300,
+    "propostas_terreno_mantidas": 68,
+    "canais_nao_reconhecidos": [],
+    "checagem_valor_imovel": "valor_imovel: 0 valor(es) não-convertível(eis) (0.000% das linhas) - dentro da taxa basal conhecida (0.000%).",
+    "propostas_ltv_acima_60pct": 81,
+    "checagem_data_entrada": "data_entrada: 0 valor(es) não-convertível(eis) (0.000% das linhas) - dentro da taxa basal conhecida (0.000%).",
+    "checagem_data_assinatura_contrato": "data_assinatura_contrato: 0 valor(es) não-convertível(eis) (0.000% das linhas) - dentro da taxa basal conhecida (0.000%).",
+    "checagem_idade_cliente": "idade_cliente: 0 valor(es) não-convertível(eis) (0.000% das linhas) - dentro da taxa basal conhecida (0.000%).",
+    "linhas_idade_invalida": 1,
+    "linhas_etapa_corrigida": 1,
+    "ids_etapa_corrigida": [
+      "PR-000031"
+    ],
+    "linhas_etapa_anomala_nao_corrigida": 1,
+    "ids_etapa_anomala_nao_corrigida": [
+      "PR-000032"
+    ],
+    "linhas_data_inconsistente": 0,
+    "linhas_ltv_nao_calculavel": 0,
+    "linhas_tratadas": 300
+  },
+  "colunas_nao_criticas_ausentes": {}
+}

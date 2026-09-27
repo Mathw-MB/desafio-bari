@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+.env
+propostas_credito_tratado.csv
+resultados_mock_teste.csv
